@@ -31,15 +31,15 @@
             <h1>Bienvenue ! Je suis Mohamed Ayman</h1>
             <p class="base">Apprenant développeur web, j'apprends à créer des sites et des applications axés sur les
                 résultats</p>
-            <button id="boutounUn"><a href="#projets">Projets</a></button>
+            <button id="boutounUn"><a href="#projet">Projets</a></button>
         </div>
     </header>
     <section id="accueil"></section>
     <section id="about"></section>
-    <section id="projets"></section>
+    <section id="projet"></section>
     <section id="contact"></section>
     <script src="https://kit.fontawesome.com/ee0e503946.js" crossorigin="anonymous"></script>
-    
+    <main>
         <section class="partiDeux">
             <div class="titreDeux">
             <h2>Présentation</h2>
@@ -74,34 +74,71 @@
         </section>
         <section class="projet">
             <div class="proj">
-                <h2>Projets</h2>
+                <h2 id="projet">Projets</h2>
                 <p>Vous trouverez ici quelques-uns de mes projets personnels, chacun accompagné de son étude de cas.</p>
             </div>
-            <div>
+            <div class="divided">
+                <div class="imag">
+                    <img class="image" src="tc.PNG" alt="">
+                </div>
+                <div>
+                    <h4>O'Tacos</h4>
+                    <p id="para">Le projet présenté est celui que j'ai conçu et réalisé dans le but de promouvoir l'enseigne. 
+                        Ce travail met en avant mes compétences en conception, développement et stratégie de communication, en intégrant des éléments visuels attrayants 
+                        et une expérience utilisateur optimisée pour capter l'attention et susciter l'intérêt du public cible.
+                    </p>
+                    <button id="photo"><a href="https://aymanmoh22.github.io/renduCSS/">Voir le site</a></button>
+                </div>      
             </div>
+           
         </section>
         <section class="contact">
             <div class="cont">
-                <h2>Contact</h2>
+                <h2 id="contact">Contact</h2>
                 <p>N’hésitez pas à me contacter en remplissant le formulaire ci-dessous, je vous répondrai dès que possible.</p>
             </div>
-            <form>
-                <div>
-                    <label for="name">Nom:</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="mail">Email:</label>
-                    <input type="text">
-                </div>
-                <div>
-                    <label for="message">Message</label>
-                    <input type="text">
-                </div>
-                <button>Envoyer</button>
-            </form>
+            <div class="orga">
+                <form>
+                    <div class="type">
+                        <label for="name">Nom:</label>
+                        <input type="text" placeholder="Inscrivez votre nom">
+                    </div>
+                    <div class="type">
+                        <label for="mail">Email:</label>
+                        <input type="text" placeholder="Saisissez votre adresse éléctronique">
+                    </div>
+                    <div class="type">
+                        <label for="message">Message</label>
+                        
+                        <textarea name="" id="" rows="10" cols="50" placeholder="Saisissez votre message"></textarea>
+                    </div>
+                    <a href="#contact"><button id="finalite">Envoyer</button></a>
+                </form>
+                    </div>
         </section>
- 
+    </main>
+    <footer>
+        <section class="fin">
+            <div class="foot">
+                <h4>Mohamed Ayman</h4>
+                <p id="unique">Un développeur web novice, principalement axé 
+                    sur la gestion <br> des sites web et des applications.</p>
+            </div>
+            <div class="finDeux">
+                <h4>Réseaux</h4>
+                <ul class="reseau">
+                    <li><a href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/"><i class="fa-brands fa-square-github"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="term">
+            <p id="solo">Droit d'auteur 2024 . Réalisé par Mohamed Ayman</p>
+
+        </section>
+
+
+    </footer>
 </body>
 
 </html>

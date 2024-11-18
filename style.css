@@ -192,6 +192,14 @@ align-items: flex-start;
     text-align: center;
     color: #111;
 }
+.image {
+   width: 554px;
+}
+#para {
+    font-size: 19px;
+    color: #666;
+}
+
 .contact {
     text-align: center;
     padding: 118px;
@@ -203,4 +211,103 @@ align-items: flex-start;
     letter-spacing: 3px;
     text-align: center;
     color: #111;
+}
+.orga {
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    background: white;
+    padding: 4rem;
+    margin-top: 6rem;
+    max-width: 80rem;
+    text-align: left;
+    width: 95%;
+    border-radius: 5px;
+    margin: 5rem auto 0 auto;
+}
+.type {
+    color: #666;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+#finalite {
+    width: 21%;
+    padding: 18px;
+    font-size: 20px;
+    background: #736767;
+    color: #262626;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 25%;
+    box-shadow: 0 10px 100px rgba(48, 48, 48, 0.42);
+}
+
+footer {
+    background: #000;
+    color: #fff;
+}
+.fin {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+.foot {
+    margin-left: 50px;
+    padding: 0px 20px;
+}
+.finDeux {
+    margin-right: 50px;
+}
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#unique {
+    color: #eee;
+}
+.reseau{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+#solo {
+    padding: 4rem 0;
+    border-top: 1px solid #444;
+    color: #eee;
+    font-size: 12px;
+    text-align: left;
+    text-align: center;
+}
+.divided {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+#photo {
+    padding: 10px;
+    font-size: 12px;
+    background: #736767;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 25%;
+    box-shadow: 0 10px 100px rgba(28, 28, 28, 0.63);
 }
