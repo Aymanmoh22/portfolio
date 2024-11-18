@@ -122,7 +122,85 @@ i {
     color: #111;
 }
 .titreTrois {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+}
+h3 {
+    font-size: 1.8rem;
+    margin-left: 26px;
+}
+.presentation {
+    font-size: 19px;
+    color: #423f3b;
+    margin-left: 26px;
+    
+}
+.competences{
+    padding: 10px 0 10px;
+    background-color: #736767;
+    border-radius: 5px;
+   width: 20%;
+   text-align: center;
+    margin: 10px;
+}
+.enfant {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    flex-wrap: wrap;
+align-items: flex-start;
+}
+.comp {
+    width: 50%;
+}
+.compWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+.test{
+    width: 50%;
+}
+#boutonDeux {
+    padding: 7px;
+    font-size: 19px;
+    margin-left: 25px;
+    padding: 6px;
+    font-size: 16px;
+    background: #736767;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 25%;
+    box-shadow: 0 10px 100px rgba(28, 28, 28, 0.63);
+  }
+.projet {
+    text-align: center;
+    padding: 118px;
+}
+.proj {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #111;
+}
+.contact {
+    text-align: center;
+    padding: 118px;
+}
+.cont {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #111;
 }
