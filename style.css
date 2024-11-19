@@ -87,6 +87,7 @@ h1 {
     border-radius: 5px;
     width: 25%;
     box-shadow: 0 10px 100px rgba(28, 28, 28, 0.63);
+    margin-right: 49px;
 }
 
 .dividedHeader {
@@ -292,6 +293,7 @@ h4 {
     font-size: 12px;
     text-align: left;
     text-align: center;
+    margin-bottom: 0;
 }
 .divided {
     display: flex;
